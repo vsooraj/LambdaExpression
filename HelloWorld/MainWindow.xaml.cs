@@ -11,11 +11,7 @@ namespace HelloWorld
         public MainWindow()
         {
             InitializeComponent();
-            ClickMeButton.Click +=
-                (s, e) =>
-                {
-                    MessageBox.Show("Hellow World");
-                };
+            ClickMeButton.Click += (s, e) => MessageBox.Show("Hellow World");
         }
 
     }
